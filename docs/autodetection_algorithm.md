@@ -51,7 +51,7 @@ This is a two phases algorithm:
 ```
 Layout 
 
-| Node| Neineighbours|
+| Node| Neighbours|
 |-|-|
 | C||
 | I1||
@@ -69,7 +69,7 @@ P2. find which nodes are near C and where
 ```
 Layout 
 
-| Node| Neineighbours|
+| Node| Neighbours|
 |-|-|
 | C||
 | I1|[SW:C]|
@@ -84,7 +84,7 @@ P3. find which nodes are near I1
 ```
 Layout 
 
-| Node| Neineighbours|
+| Node| Neighbours|
 |-|-|
 | C|[NE:I1]|
 | I1|[SW:C]|
@@ -100,7 +100,7 @@ P4. find which nodes are near I2
 ```
 Layout 
 
-| Node| Neineighbours|
+| Node| Neighbours|
 |-|-|
 | C|[NE:I1],[SE:I2]|
 | I1|[SW:C],[S:I2]|
@@ -115,7 +115,7 @@ P4. find which nodes are near I3
 ```
 Layout 
 
-| Node| Neineighbours|
+| Node| Neighbours|
 |-|-|
 | C|[NE:I1],[SE:I2]|
 | I1|[SW:C],[S:I2],[NW:I3]|
